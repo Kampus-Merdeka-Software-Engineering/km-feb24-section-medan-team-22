@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Team 22 Medan</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feather Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">  
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <a href="https://revou.co/">
+        <img src="./img/Logo-Hor.png" alt="logo" class="logo" />
+      </a>
+      <div class="menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#feedback">Feedback</a>
+      </div>
+      <div class="search-icon">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+      </div>
+    </nav>
+
+    <!-- Home Page -->
+    <section class="home" id="home">
+      <main class="content">
+        <h1>Pizza Autentik Kualitas Terbaik</h1>
+        <p>
+          Nikmati kelezatan pizza kami yang autentik, dibuat dengan bahan-bahan kualitas terbaik
+        </p>
+      </main>
+    </section>
+
+    <!-- About Page -->
+    <section class="about" id="about">
+      <h1>About</h1>
+      <h2>Brand Story</h2>
+      <h3>Kenalin, kami....</h3>
+      <p><br><br>
+        Tahun berdiri, tempat berdiri, perkembangannya, visi misi singkat, komitmen terhadap kualitas dan rasa, penghargaan/prestasi 
+      </p>
+    </section>
+
+    <section class="dashboard" id="dashboard">
+      <h1>Dashboard</h1>
+          <h2>Our Summary Report</h2><br>
+          <div class="grid-container">
+            <div class="item1">Pizza Sales Report</div>
+            <div class="item2">Total Order</div>
+            <div class="item3">Total Sales</div>  
+            <div class="item4">Total Revenue</div>
+            <div class="item5">Average of Revenue</div>
+            <div class="item6">Size Pizza (nanti diisi pie chart)</div>
+            <div class="item7">Tren of Sales Product (line chart)</div>
+            <div class="item8">Tren of Revenue (line chart)</div>
+            <div class="item9">5 of top product (list atau bar chart)</div>
+            <div class="item10"> jam sibuk (bar chart)</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feedback Section -->
+    <section class="feedback" id="feedback">
+      <h1>Feedback</h1>
+      <body>
+        <div class="form-box"> 
+          <form> 
+            <!-- Nama -->
+            <label for="uname"> 
+              <i class="fa fa-solid fa-user"></i> 
+              Name 
+            </label> 
+            <input type="text" id="uname"
+              name="uname" required placeholder="type name"> 
+            
+            <!-- Email -->
+            <label for="email"> 
+              <i class="fa fa-solid fa-envelope"></i> 
+              Email Address 
+            </label> 
+            <input type="email" id="email"
+              name="email" required placeholder="type email"> 
+      
+            <!-- Phone -->
+            <label for="phone"> 
+              <i class="fa-solid fa-phone"></i> 
+              Phone No 
+            </label> 
+            <input type="tel" id="phone"
+              name="phone" required placeholder="type no-phone"> 
+            
+            <!-- Satisfy -->
+            <label> 
+              <i class="fa-solid fa-face-smile"></i> 
+              Do you satisfy with our service? 
+            </label> 
+            <div class="radio-group"> 
+              <input type="radio" id="yes"
+                name="satisfy" value="yes" checked> 
+              <label for="yes">Yes</label> 
+      
+              <input type="radio" id="no"
+                name="satisfy" value="no"> 
+              <label for="no">No</label> 
+            </div> 
+
+            <!-- Suggestions -->
+            <label for="msg"> 
+              <i class="fa-solid fa-comments"
+              style="margin-right: 3px;"></i> 
+              Write your Suggestions: 
+            </label> 
+            <textarea id="msg" name="msg"
+              required placeholder="Write your suggestions" placeholder="ketik remark"></textarea>
+
+            <!-- Submit Button -->
+            <button type="submit"> 
+              Submit 
+            </button> 
+          </form> 
+        </div> 
+      </body> 
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#feedback">Beri Feedback</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">SECTION MEDAN TEAM 22</a>. | &copy; 2024.</p>
+      </div>
+    </footer>
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
